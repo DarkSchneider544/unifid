@@ -1,0 +1,44 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy[asyncio]==2.0.25
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# PostgreSQL Vector Extension
+pgvector==0.2.4
+
+# Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# HTTP Client
+httpx==0.26.0
+aiofiles==23.2.1
+
+# ML/Embeddings (Optional - for semantic search)
+sentence-transformers==2.2.2
+numpy==1.26.3
+torch==2.1.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Utilities
+python-dotenv==1.0.0
+
+pydantic[email]
+
+setuptools 
+wheel
